@@ -1,0 +1,47 @@
+.todolist{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+/**/
+.todoUnsortedList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 0px;
+    height: 250px;
+    overflow-y: scroll;
+}
+.todoUnsortedListItem{
+    background-color: blue;
+    border: 3px solid black;
+    color: white;
+}
+.filterButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    border: 2px solid black;
+}
+.filterButton{
+    border: 1px solid black;
+    color: green;
+    flex: 1 0 0px;
+ }
+ .filterButton.selected{
+    border: 1px solid black;
+    color: red;
+ }
+ .searchBar{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: flex-start;
+}
+.searchBarItem{
+    flex-grow: 1;
+}
