@@ -13,7 +13,7 @@
     flex-wrap: nowrap;
     padding: 0px;
     height: 250px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .todoUnsortedListItem{
     background-color: blue;
